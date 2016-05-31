@@ -14,3 +14,4 @@ else
    puts "You need to get bananas."
 end
 p grocery_list[1]
+grocery_list.sort.each  { |item| puts "*#{item}" }
