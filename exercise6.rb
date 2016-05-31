@@ -7,3 +7,9 @@ updated_list(grocery_list)
 grocery_list.push("rice")
 updated_list(grocery_list)
 puts grocery_list.length
+
+if grocery_list.include?("bananas")
+  puts "You don't need to pick up bananas today."
+else
+   puts "You need to get bananas."
+end
