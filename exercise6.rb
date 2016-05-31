@@ -15,3 +15,6 @@ else
 end
 p grocery_list[1]
 grocery_list.sort.each  { |item| puts "*#{item}" }
+
+grocery_list.delete("salmon")
+grocery_list.sort.each { |item| puts "*#{item}" } 
