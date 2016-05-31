@@ -1,10 +1,9 @@
 grocery_list = ["carrots", "toilet paper","apples", "salmon" ]
 
-def print_list(grocery_list)
-  grocery_list.each do |item|
-    puts "*#{item}"
-  end
+def updated_list(grocery_list)
+  grocery_list.each { |item| puts "*#{item}" }
 end
-print_list(grocery_list)
+updated_list(grocery_list)
 grocery_list.push("rice")
-print_list(grocery_list)
+updated_list(grocery_list)
+puts grocery_list.length
