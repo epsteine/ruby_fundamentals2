@@ -13,3 +13,4 @@ if grocery_list.include?("bananas")
 else
    puts "You need to get bananas."
 end
+p grocery_list[1]
