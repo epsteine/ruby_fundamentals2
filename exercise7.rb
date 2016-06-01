@@ -12,3 +12,6 @@ puts students.keys
 
 students.each { |x, y| puts "#{x}: #{(y * 0.05).to_i + y}"}
 puts students
+
+students.delete(:cohort2)
+puts students
