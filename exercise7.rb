@@ -16,3 +16,8 @@ puts students
 students.delete(:cohort2)
 students.each { |x, y| puts "#{x}: #{(y * 0.05).to_i + y}"}
 puts students
+
+#Bonus!  
+counter = 0
+students.each { |x, y| counter += y}
+puts counter
